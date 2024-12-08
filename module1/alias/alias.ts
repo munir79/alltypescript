@@ -19,6 +19,10 @@
 
   }
     
+  type ADD = (num1:number, num2:number)=>number;
 
+  const add:ADD=(n1,n2)=>n1+n2;
+
+  add(1,2);
 
 }
